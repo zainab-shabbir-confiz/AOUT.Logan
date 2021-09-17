@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOUT.Logan", "AOUT.Logan\AOUT.Logan.csproj", "{11EC884E-6D6F-45FB-9E63-EC9578AB500B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOUT.Logan", "AOUT.Logan\AOUT.Logan.csproj", "{11EC884E-6D6F-45FB-9E63-EC9578AB500B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOUT.Logan.Tests", "AOUT.Logan.Tests\AOUT.Logan.Tests.csproj", "{FA8ABDE3-C6A1-40C4-95CC-B0D6A43CA31E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOUT.Logan.Tests", "AOUT.Logan.Tests\AOUT.Logan.Tests.csproj", "{FA8ABDE3-C6A1-40C4-95CC-B0D6A43CA31E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
