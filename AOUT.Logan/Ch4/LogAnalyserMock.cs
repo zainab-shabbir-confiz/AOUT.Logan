@@ -16,12 +16,17 @@ namespace AOUT.Logan.Ch4
 		}
 		public void Analyze(string fileName)
 		{
+			//if (fileName.Length < 8)
+			//{
+			//	service.LogError("Filename too short:"
+			//	+ fileName);
+			//}
 			if (fileName.Length < 8)
 			{
-				service.LogError("Filename too short:"
-				+ fileName);
-			}
+				// expected "Filename too short:abc.extfile name was too short"
+				service.LogError("bad string");
 
+			}
 		}
 	}
 }

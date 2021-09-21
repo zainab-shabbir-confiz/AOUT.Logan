@@ -62,6 +62,10 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[4.0.0, )"
+            },
+            "RhinoMocks": {
+              "target": "Package",
+              "version": "[3.6.1, )"
             }
           },
           "imports": [

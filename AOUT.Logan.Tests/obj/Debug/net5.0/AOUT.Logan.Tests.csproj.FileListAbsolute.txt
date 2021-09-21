@@ -103,3 +103,4 @@ D:\Projects\AOUT.Logan\AOUT.Logan.Tests\obj\Debug\net5.0\AOUT.Logan.Tests.genrun
 D:\Projects\AOUT.Logan\AOUT.Logan.Tests\bin\Debug\net5.0\AOUT.Logan.deps.json
 D:\Projects\AOUT.Logan\AOUT.Logan.Tests\bin\Debug\net5.0\AOUT.Logan.runtimeconfig.json
 D:\Projects\AOUT.Logan\AOUT.Logan.Tests\bin\Debug\net5.0\AOUT.Logan.runtimeconfig.dev.json
+D:\Projects\AOUT.Logan\AOUT.Logan.Tests\bin\Debug\net5.0\Rhino.Mocks.dll
