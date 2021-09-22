@@ -1,5 +1,6 @@
 ﻿using AOUT.Logan.Ch3;
 using AOUT.Logan.Ch4;
+using AOUT.Logan.Ch7;
 using AOUT.Logan.Implementations;
 using AOUT.Logan.Interfaces;
 using NUnit.Framework;
@@ -19,6 +20,7 @@ namespace AOUT.Logan.Tests
 		public void Setup()
 		{
 			m_analyzer = new LogAnalyser();
+		    //logan.Initialize();
 			calc = new Calculator();
 		}
 		[Test]
@@ -170,6 +172,22 @@ namespace AOUT.Logan.Tests
 			int result3 = resultGetter.GetSomeNumber("a");
 			Assert.AreEqual(2, result3);
 		}
+
+		[Test]
+		public void IsValid_LengthBiggerThan8_IsFalse()
+		{
+			LogAnalyzerPractice logan = new LogAnalyzerPractice();
+			bool valid = logan.IsValid("123456789");
+			Assert.IsFalse(valid);
+		}
+		[Test]
+		public void IsValid_LengthSmallerThan8_IsTrue()
+		{
+			LogAnalyzerPractice logan = new LogAnalyzerPractice();
+			bool valid = logan.IsValid("1234567");
+			Assert.IsTrue(valid);
+		}
+
 
 		[TearDown]
 		public void TearDown()
